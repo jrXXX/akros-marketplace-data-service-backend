@@ -19,7 +19,7 @@ spring:
     initialization-mode: always
     password: am
     platform: postgres
-    url: jdbc:postgresql://postgres_db:5432/am
+    #url: jdbc:postgresql://${POSTGRES_DB_HOST}:5432/am
     username: am
   jpa:
     database-platform: org.hibernate.dialect.PostgreSQLDialect
